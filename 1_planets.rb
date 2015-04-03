@@ -22,9 +22,9 @@ planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Saturn', 'Jupiter', 'Uranus', '
 
 planets = ["Mercury", "Venus", "Earth", "Mars", "Saturn", "Jupiter", "Uranus", "Neptune"]
 
-i = 0
+count = 1
 
 planets.each do |planet| 
-	i += 1
-	puts "Planet #{i}: #{planet}"
+	puts "Planet #{count}: #{planet}"
+	count += 1
 end
